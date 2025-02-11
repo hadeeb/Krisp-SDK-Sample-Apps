@@ -8,7 +8,7 @@ using namespace Krisp::AudioSdk;
 template <typename T>
 int error(const T &e)
 {
-    std::cerr << e << std::endl;
+//    std::cerr << e << std::endl;
     return 1;
 }
 
