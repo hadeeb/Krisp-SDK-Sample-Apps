@@ -24,6 +24,9 @@ static std::pair<SamplingRate, bool> getKrispSamplingRate(uint32_t rate)
     case 16000:
         result.first = SamplingRate::Sr16000Hz;
         break;
+	case 24000:
+        result.first = SamplingRate::Sr24000Hz;
+		break;
     case 32000:
         result.first = SamplingRate::Sr32000Hz;
         break;
