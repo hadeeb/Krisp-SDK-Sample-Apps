@@ -1,0 +1,11 @@
+[project]
+name = "krisp-sdk-sample-apps"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "~=3.11"
+dependencies = [
+    "numpy>=2.2.2",
+    "onnxruntime>=1.20.1",
+    "soundfile>=0.13.1",
+]
