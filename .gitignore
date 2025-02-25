@@ -1,2 +1,6 @@
 /build
 /bin
+/.venv
+/krisp-audio-*
+/outbound-nc-models
+/test/*.kef
